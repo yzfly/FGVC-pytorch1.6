@@ -1,0 +1,13 @@
+python video_completion.py \
+    --mode object_removal \
+    --path ../data/tennis \
+    --path_mask ../data/tennis_mask \
+    --outroot ../result/t_removal \
+    --seamless
+
+python video_completion.py \
+    --mode object_removal \
+    --path ../data/fast_test/frames \
+    --path_mask ../data/fast_test/masks \
+    --outroot ../result/test_removal \
+    --seamless
